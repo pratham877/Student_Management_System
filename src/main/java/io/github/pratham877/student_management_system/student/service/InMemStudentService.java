@@ -1,5 +1,6 @@
-package io.github.pratham877.student_management_system.student;
+package io.github.pratham877.student_management_system.student.service;
 
+import io.github.pratham877.student_management_system.student.pojofile.Student;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -17,9 +18,9 @@ public class InMemStudentService implements StudentService {
 
     //CREATE
     @Override
-    public List<Student> addStudent(Student student) {
+    public Student addStudent(Student student) {
         students.add(student);
-        return students;
+        return student;
     }
 
     //READ
@@ -49,15 +50,6 @@ public class InMemStudentService implements StudentService {
     }
 
     //UPDATE
-
-    @Override
-    public Student updateStudentName(long id, String newFullName) {
-        Student student = getStudentById(id);
-        if (student != null) {
-            student.setFullName(newFullName);
-        }
-        return student;
-    }
 
     @Override
     public Student updateStudentEmail(long id, String newEmail) {
