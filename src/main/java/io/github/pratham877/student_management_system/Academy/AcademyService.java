@@ -1,4 +1,4 @@
-package student.Academy;
+package io.github.pratham877.student_management_system.Academy;
 
 
 import java.util.List;

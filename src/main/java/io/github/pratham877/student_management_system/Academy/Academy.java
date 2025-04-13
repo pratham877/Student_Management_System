@@ -1,15 +1,14 @@
-package student.Academy;
+package io.github.pratham877.student_management_system.Academy;
 
 
 
 import jakarta.persistence.*;
-import org.springframework.boot.autoconfigure.web.WebProperties;
 
 import java.util.List;
 import java.util.Objects;
 
 
-@Table(name="StudentTable")
+@Table(name="Academy")
 public class Academy {
     @Id
     private String department;
