@@ -1,7 +1,9 @@
-package io.github.pratham877.student_management_system.Academy;
+package io.github.pratham877.student_management_system.Academy.AcademyController;
 
 
 
+import io.github.pratham877.student_management_system.Academy.AcademyModel.Academy;
+import io.github.pratham877.student_management_system.Academy.AcademyService.AcademyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.validation.annotation.Validated;

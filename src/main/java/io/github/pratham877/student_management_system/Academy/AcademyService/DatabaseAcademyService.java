@@ -1,8 +1,7 @@
-package io.github.pratham877.student_management_system.Academy;
+package io.github.pratham877.student_management_system.Academy.AcademyService;
 
+import io.github.pratham877.student_management_system.Academy.AcademyModel.Academy;
 import io.github.pratham877.student_management_system.Academy.AcademyRepository.AcademyRepository;
-import io.github.pratham877.student_management_system.student.StudentRepository;
-import io.github.pratham877.student_management_system.student.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -10,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 @Qualifier("databaseAcademyService")
 @Service
-public class DatabaseAcademyService implements  AcademyService {
+public class DatabaseAcademyService implements AcademyService {
     private AcademyRepository academyRepository;
 
     @Autowired

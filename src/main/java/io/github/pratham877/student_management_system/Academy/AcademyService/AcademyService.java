@@ -1,5 +1,7 @@
-package io.github.pratham877.student_management_system.Academy;
+package io.github.pratham877.student_management_system.Academy.AcademyService;
 
+
+import io.github.pratham877.student_management_system.Academy.AcademyModel.Academy;
 
 import java.util.List;
 

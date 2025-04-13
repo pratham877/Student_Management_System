@@ -1,6 +1,6 @@
 package io.github.pratham877.student_management_system.Academy.AcademyRepository;
 
-import io.github.pratham877.student_management_system.Academy.Academy;
+import io.github.pratham877.student_management_system.Academy.AcademyModel.Academy;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
