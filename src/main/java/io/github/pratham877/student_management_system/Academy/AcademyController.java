@@ -20,7 +20,7 @@ public class AcademyController {
     private final AcademyService academyService;
 
     @Autowired
-    public AcademyController(@Qualifier("inMemAcademyService") AcademyService academyService) {
+    public AcademyController(@Qualifier("") AcademyService academyService) {
         this.academyService = academyService;
     }
 
